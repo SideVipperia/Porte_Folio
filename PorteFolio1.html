@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sercol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .projects, .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Découvrez mes projets, compétences et contactez-moi !</p>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>À propos</h2>
+    <p>Je suis Sercol, développeur passionné par le développement de jeux roblox ou de projet idiot. J'adore apprendre de nouvelles technologies/langages de programmation.</p>
+</section>
+
+<section id="projects">
+    <h2>Projets</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Projet 1</h3>
+            <p>Description rapide du projet.</p>
+        </div>
+        <div class="card">
+            <h3>Projet 2</h3>
+            <p>Description rapide du projet.</p>
+        </div>
+        <!-- Ajoutez plus de projets ici -->
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Compétences</h2>
+    <div class="skills">
+        <div class="card">Lua</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Python</div>
+        <!-- Ajoutez plus de compétences ici -->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 - Sercol. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
